@@ -361,7 +361,7 @@ F 3 "" H 7700 2800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7700 4900 7450 4900
-Text GLabel 7450 4900 0    60   Input ~ 0
+Text GLabel 7450 4900 0    60   BiDi ~ 0
 GPIO_PH1
 NoConn ~ 4000 4900
 NoConn ~ 4000 4800
