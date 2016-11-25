@@ -9,7 +9,6 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
-LIBS:xilinx
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -28,12 +27,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mylib
 LIBS:JetsonTK1_GPIO_connector-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -588,4 +588,36 @@ Text GLabel 5750 3900 2    60   Input ~ 0
 GPIO_PU1
 Text GLabel 5750 3800 2    60   Input ~ 0
 GPIO_PU0
+$Sheet
+S 6200 5450 600  400 
+U 58389DA7
+F0 "logic_conv_1" 60
+F1 "I2C_logic_conv.sch" 60
+F2 "VL" I L 6200 5550 60 
+F3 "VH" I R 6800 5550 60 
+F4 "LV1" I L 6200 5650 60 
+F5 "LV2" I L 6200 5750 60 
+F6 "HV1" I R 6800 5650 60 
+F7 "HV2" I R 6800 5750 60 
+$EndSheet
+$Sheet
+S 6200 6050 600  400 
+U 583898DE
+F0 "logic_conv_2" 60
+F1 "I2C_logic_conv.sch" 60
+F2 "VL" I L 6200 6150 60 
+F3 "VH" I R 6800 6150 60 
+F4 "LV1" I L 6200 6250 60 
+F5 "LV2" I L 6200 6350 60 
+F6 "HV1" I R 6800 6250 60 
+F7 "HV2" I R 6800 6350 60 
+$EndSheet
+$Sheet
+S 7850 5550 1300 750 
+U 5838B1B2
+F0 "SPI-CAN" 60
+F1 "SPI-CAN.sch" 60
+$EndSheet
+Text GLabel 9550 3100 2    60   Input ~ 0
+GPIO_PK2
 $EndSCHEMATC
