@@ -1,4 +1,4 @@
-update=2016/11/27 16:57:03
+update=2016/11/28 19:46:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,6 +20,8 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -56,5 +58,3 @@ LibName26=atmel
 LibName27=contrib
 LibName28=valves
 LibName29=mylib
-[general]
-version=1
