@@ -247,17 +247,6 @@ Wire Wire Line
 	4900 1750 4900 1750
 Wire Wire Line
 	4900 2000 4900 2000
-$Comp
-L Crystal_GND24 Y1
-U 1 1 5838CC2F
-P 6100 3350
-F 0 "Y1" H 6225 3550 50  0000 L CNN
-F 1 "Crystal_GND24" H 6225 3475 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_5032_4Pads" H 6100 3350 50  0001 C CNN
-F 3 "" H 6100 3350 50  0000 C CNN
-	1    6100 3350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5800 3400 5850 3400
 Wire Wire Line
@@ -265,7 +254,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3550 6250 3550
 Wire Wire Line
-	6100 3550 6100 3500
+	6100 3450 6100 3550
 Wire Wire Line
 	5800 3300 5850 3300
 Wire Wire Line
@@ -273,23 +262,13 @@ Wire Wire Line
 Wire Wire Line
 	5850 3150 6250 3150
 Wire Wire Line
-	6100 3150 6100 3200
+	6100 3150 6100 3250
 Connection ~ 6100 3150
 Connection ~ 6100 3550
 Wire Wire Line
 	6550 3150 6600 3150
 Wire Wire Line
-	6600 3150 6600 3650
-Wire Wire Line
 	6600 3550 6550 3550
-Wire Wire Line
-	6300 3350 6600 3350
-Connection ~ 6600 3350
-Wire Wire Line
-	5900 3350 5900 3400
-Wire Wire Line
-	5900 3400 6600 3400
-Connection ~ 6600 3400
 $Comp
 L GND #PWR098
 U 1 1 5838D209
@@ -301,7 +280,6 @@ F 3 "" H 6600 3650 50  0000 C CNN
 	1    6600 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 3550
 Text HLabel 4450 1500 0    60   Input ~ 0
 VDD
 Text HLabel 4650 2950 0    60   Input ~ 0
@@ -395,9 +373,23 @@ U 1 1 583C6099
 P 7100 2800
 F 0 "J1" H 7100 3050 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 6950 2800 50  0000 C TNN
-F 2 "" H 7100 2575 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7100 2575 50  0001 C CNN
 F 3 "" H 7075 2800 50  0001 C CNN
 	1    7100 2800
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3150 6600 3650
+Connection ~ 6600 3550
+$Comp
+L Crystal_Small Y1
+U 1 1 583DDB2D
+P 6100 3350
+F 0 "Y1" H 6100 3450 50  0000 C CNN
+F 1 "Crystal_Small" H 6100 3250 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 6100 3350 50  0001 C CNN
+F 3 "" H 6100 3350 50  0000 C CNN
+	1    6100 3350
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
