@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:JetsonTK1_GPIO_connector-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1413,7 +1414,7 @@ U 1 1 58419634
 P 10200 2350
 F 0 "P9" H 10200 2900 50  0000 C CNN
 F 1 "CONN_02X10" V 10200 2350 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H 10200 1150 50  0001 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-2034_2x10x2.54mm_Straight" H 10200 1150 50  0001 C CNN
 F 3 "" H 10200 1150 50  0000 C CNN
 	1    10200 2350
 	1    0    0    -1  

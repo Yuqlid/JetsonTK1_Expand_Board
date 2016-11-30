@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:JetsonTK1_GPIO_connector-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -76,30 +77,6 @@ F 3 "" H 6400 3550 50  0000 C CNN
 	1    6400 3550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4900 2600 4850 2600
-Wire Wire Line
-	4850 2600 4850 2500
-Wire Wire Line
-	4850 2500 4900 2500
-Wire Wire Line
-	4900 2400 4800 2400
-Wire Wire Line
-	4800 2400 4800 2700
-Wire Wire Line
-	4800 2700 4900 2700
-Wire Wire Line
-	4900 2950 4650 2950
-Wire Wire Line
-	4900 3050 4650 3050
-Wire Wire Line
-	4900 3150 4650 3150
-Wire Wire Line
-	4900 3250 4650 3250
-Wire Wire Line
-	4900 3350 4650 3350
-Wire Wire Line
-	4900 3950 4650 3950
 $Comp
 L GND #PWR093
 U 1 1 5838B70B
@@ -111,19 +88,6 @@ F 3 "" H 5450 4450 50  0000 C CNN
 	1    5450 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 4250 5450 4450
-Wire Wire Line
-	5600 4250 5600 4350
-Wire Wire Line
-	5600 4350 5450 4350
-Connection ~ 5450 4350
-Wire Wire Line
-	5800 2700 6900 2700
-Wire Wire Line
-	5800 2900 6900 2900
-Wire Wire Line
-	6850 3000 6850 3150
 $Comp
 L GND #PWR094
 U 1 1 5838BBBF
@@ -157,22 +121,6 @@ F 3 "" H 6650 2450 50  0000 C CNN
 	1    6650 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 2300 6250 2250
-Wire Wire Line
-	6250 2250 6400 2250
-Wire Wire Line
-	6400 2250 6400 2400
-Wire Wire Line
-	6400 2400 6450 2400
-Wire Wire Line
-	6450 2500 6400 2500
-Wire Wire Line
-	6400 2500 6400 2900
-Connection ~ 6400 2900
-Wire Wire Line
-	6250 2600 6250 2700
-Connection ~ 6250 2700
 $Comp
 L +5V #PWR095
 U 1 1 5838C11A
@@ -184,12 +132,6 @@ F 3 "" H 5600 1500 50  0000 C CNN
 	1    5600 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 1500 5600 2200
-Wire Wire Line
-	5450 1500 5450 2200
-Wire Wire Line
-	5450 1500 4450 1500
 $Comp
 L C C11
 U 1 1 5838C34B
@@ -212,15 +154,6 @@ F 3 "" H 5050 1750 50  0000 C CNN
 	1    5050 1750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5300 2200 5300 2000
-Wire Wire Line
-	5200 2000 5450 2000
-Connection ~ 5450 2000
-Connection ~ 5300 2000
-Wire Wire Line
-	5200 1750 5450 1750
-Connection ~ 5450 1750
 $Comp
 L GND #PWR096
 U 1 1 5838C518
@@ -243,32 +176,6 @@ F 3 "" H 4900 2000 50  0000 C CNN
 	1    4900 2000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4900 1750 4900 1750
-Wire Wire Line
-	4900 2000 4900 2000
-Wire Wire Line
-	5800 3400 5850 3400
-Wire Wire Line
-	5850 3400 5850 3550
-Wire Wire Line
-	5850 3550 6250 3550
-Wire Wire Line
-	6100 3450 6100 3550
-Wire Wire Line
-	5800 3300 5850 3300
-Wire Wire Line
-	5850 3300 5850 3150
-Wire Wire Line
-	5850 3150 6250 3150
-Wire Wire Line
-	6100 3150 6100 3250
-Connection ~ 6100 3150
-Connection ~ 6100 3550
-Wire Wire Line
-	6550 3150 6600 3150
-Wire Wire Line
-	6600 3550 6550 3550
 $Comp
 L GND #PWR098
 U 1 1 5838D209
@@ -316,13 +223,6 @@ F 3 "" H 6000 2000 50  0000 C CNN
 	1    6000 2000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5700 2000 5600 2000
-Connection ~ 5600 2000
-Wire Wire Line
-	4900 2850 3750 2850
-Wire Wire Line
-	3750 2850 3750 3100
 $Comp
 L GND #PWR0100
 U 1 1 5842C3FB
@@ -351,6 +251,129 @@ F 3 "" H 7750 2850 50  0000 C CNN
 	1    7750 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 583C6099
+P 7100 2800
+F 0 "J1" H 7100 3050 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 6950 2800 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7100 2575 50  0001 C CNN
+F 3 "" H 7075 2800 50  0001 C CNN
+	1    7100 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Crystal_Small Y1
+U 1 1 583DDB2D
+P 6100 3350
+F 0 "Y1" H 6100 3450 50  0000 C CNN
+F 1 "Crystal_Small" H 6100 3250 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 6100 3350 50  0001 C CNN
+F 3 "" H 6100 3350 50  0000 C CNN
+	1    6100 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2600 4850 2600
+Wire Wire Line
+	4850 2600 4850 2500
+Wire Wire Line
+	4850 2500 4900 2500
+Wire Wire Line
+	4900 2400 4800 2400
+Wire Wire Line
+	4800 2400 4800 2700
+Wire Wire Line
+	4800 2700 4900 2700
+Wire Wire Line
+	4900 2950 4650 2950
+Wire Wire Line
+	4900 3050 4650 3050
+Wire Wire Line
+	4900 3150 4650 3150
+Wire Wire Line
+	4900 3250 4650 3250
+Wire Wire Line
+	4900 3350 4650 3350
+Wire Wire Line
+	4900 3950 4650 3950
+Wire Wire Line
+	5450 4250 5450 4450
+Wire Wire Line
+	5600 4250 5600 4350
+Wire Wire Line
+	5600 4350 5450 4350
+Connection ~ 5450 4350
+Wire Wire Line
+	5800 2700 6900 2700
+Wire Wire Line
+	5800 2900 6900 2900
+Wire Wire Line
+	6850 3000 6850 3150
+Wire Wire Line
+	6250 2300 6250 2250
+Wire Wire Line
+	6250 2250 6400 2250
+Wire Wire Line
+	6400 2250 6400 2400
+Wire Wire Line
+	6400 2400 6450 2400
+Wire Wire Line
+	6450 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 2900
+Connection ~ 6400 2900
+Wire Wire Line
+	6250 2600 6250 2700
+Connection ~ 6250 2700
+Wire Wire Line
+	5600 1500 5600 2200
+Wire Wire Line
+	5450 1500 5450 2200
+Wire Wire Line
+	5450 1500 4450 1500
+Wire Wire Line
+	5300 2200 5300 2000
+Wire Wire Line
+	5200 2000 5450 2000
+Connection ~ 5450 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5200 1750 5450 1750
+Connection ~ 5450 1750
+Wire Wire Line
+	4900 1750 4900 1750
+Wire Wire Line
+	4900 2000 4900 2000
+Wire Wire Line
+	5800 3400 5850 3400
+Wire Wire Line
+	5850 3400 5850 3550
+Wire Wire Line
+	5850 3550 6250 3550
+Wire Wire Line
+	6100 3450 6100 3550
+Wire Wire Line
+	5800 3300 5850 3300
+Wire Wire Line
+	5850 3300 5850 3150
+Wire Wire Line
+	5850 3150 6250 3150
+Wire Wire Line
+	6100 3150 6100 3250
+Connection ~ 6100 3150
+Connection ~ 6100 3550
+Wire Wire Line
+	6550 3150 6600 3150
+Wire Wire Line
+	6600 3550 6550 3550
+Wire Wire Line
+	5700 2000 5600 2000
+Connection ~ 5600 2000
+Wire Wire Line
+	4900 2850 3750 2850
+Wire Wire Line
+	3750 2850 3750 3100
 Wire Wire Line
 	7550 2950 7450 2950
 Wire Wire Line
@@ -367,29 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2750 6850 2700
 Connection ~ 6850 2700
-$Comp
-L Screw_Terminal_1x02 J1
-U 1 1 583C6099
-P 7100 2800
-F 0 "J1" H 7100 3050 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 6950 2800 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7100 2575 50  0001 C CNN
-F 3 "" H 7075 2800 50  0001 C CNN
-	1    7100 2800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6600 3150 6600 3650
 Connection ~ 6600 3550
-$Comp
-L Crystal_Small Y1
-U 1 1 583DDB2D
-P 6100 3350
-F 0 "Y1" H 6100 3450 50  0000 C CNN
-F 1 "Crystal_Small" H 6100 3250 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 6100 3350 50  0001 C CNN
-F 3 "" H 6100 3350 50  0000 C CNN
-	1    6100 3350
-	0    1    1    0   
-$EndComp
 $EndSCHEMATC

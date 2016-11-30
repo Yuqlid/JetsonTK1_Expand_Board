@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:JetsonTK1_GPIO_connector-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
