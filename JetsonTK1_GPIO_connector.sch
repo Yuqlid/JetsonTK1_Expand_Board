@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "JetsonTK1_GPIO_Connector"
+Title "JetsonTK1_Expand_Board"
 Date "2016-12-18"
 Rev "1.1"
 Comp "Manju-Honpo"

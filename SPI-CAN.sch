@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title "JetsonTK1_GPIO_Connector"
+Title "JetsonTK1_Expand_Board"
 Date "2016-12-18"
 Rev "1.1"
 Comp "Manju-Honpo"
@@ -298,26 +298,16 @@ Wire Wire Line
 Wire Wire Line
 	5100 5100 4850 5100
 Wire Wire Line
-	5650 5400 5650 5500
-Wire Wire Line
-	5650 5500 5650 5600
+	5650 5400 5650 5600
 Wire Wire Line
 	5800 5400 5800 5500
 Wire Wire Line
 	5800 5500 5650 5500
 Connection ~ 5650 5500
 Wire Wire Line
-	6000 3850 6450 3850
+	6000 3850 7100 3850
 Wire Wire Line
-	6450 3850 7050 3850
-Wire Wire Line
-	7050 3850 7100 3850
-Wire Wire Line
-	6000 4050 6600 4050
-Wire Wire Line
-	6600 4050 7050 4050
-Wire Wire Line
-	7050 4050 7100 4050
+	6000 4050 7100 4050
 Wire Wire Line
 	7700 4250 7650 4450
 Wire Wire Line
@@ -337,23 +327,15 @@ Wire Wire Line
 	6450 3750 6450 3850
 Connection ~ 6450 3850
 Wire Wire Line
-	5800 2650 5800 3150
+	5800 2650 5800 3350
 Wire Wire Line
-	5800 3150 5800 3350
-Wire Wire Line
-	5650 2650 5650 2900
-Wire Wire Line
-	5650 2900 5650 3150
-Wire Wire Line
-	5650 3150 5650 3350
+	5650 2650 5650 3350
 Wire Wire Line
 	5650 2650 4650 2650
 Wire Wire Line
 	5500 3350 5500 3150
 Wire Wire Line
-	5400 3150 5500 3150
-Wire Wire Line
-	5500 3150 5650 3150
+	5400 3150 5650 3150
 Connection ~ 5650 3150
 Connection ~ 5500 3150
 Wire Wire Line
@@ -368,9 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4550 6050 4700
 Wire Wire Line
-	6050 4700 6300 4700
-Wire Wire Line
-	6300 4700 6450 4700
+	6050 4700 6450 4700
 Wire Wire Line
 	6300 4600 6300 4700
 Wire Wire Line
@@ -378,9 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4450 6050 4300
 Wire Wire Line
-	6050 4300 6300 4300
-Wire Wire Line
-	6300 4300 6450 4300
+	6050 4300 6450 4300
 Wire Wire Line
 	6300 4300 6300 4400
 Connection ~ 6300 4300
@@ -401,8 +379,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4100 7700 4250
 Wire Wire Line
-	7700 4250 7650 4450
-Wire Wire Line
 	7750 4000 7050 4000
 Wire Wire Line
 	7050 4000 7050 4050
@@ -413,8 +389,6 @@ Wire Wire Line
 	7050 3900 7050 3850
 Connection ~ 7050 3850
 Wire Wire Line
-	6800 4300 6800 4700
-Wire Wire Line
-	6800 4700 6800 4800
+	6800 4300 6800 4800
 Connection ~ 6800 4700
 $EndSCHEMATC
