@@ -38,7 +38,7 @@ Sheet 4 5
 Title "JetsonTK1_Expand_Board"
 Date "2016-12-18"
 Rev "1.1"
-Comp "Manju-Honpo"
+Comp "Manju-Hompo"
 Comment1 "@C91"
 Comment2 "Designed by @yuqlid"
 Comment3 ""
@@ -104,7 +104,7 @@ L R R22
 U 1 1 5838BDC6
 P 6450 3600
 F 0 "R22" V 6530 3600 50  0000 C CNN
-F 1 "R" V 6450 3600 50  0000 C CNN
+F 1 "120" V 6450 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6380 3600 50  0001 C CNN
 F 3 "" H 6450 3600 50  0000 C CNN
 	1    6450 3600
@@ -267,7 +267,7 @@ L Crystal_Small Y1
 U 1 1 583DDB2D
 P 6300 4500
 F 0 "Y1" H 6300 4600 50  0000 C CNN
-F 1 "Crystal_Small" H 6300 4400 50  0000 C CNN
+F 1 "16MHz" H 6300 4400 50  0000 C CNN
 F 2 "Crystals:Crystal_HC49-U_Vertical" H 6300 4500 50  0001 C CNN
 F 3 "" H 6300 4500 50  0000 C CNN
 	1    6300 4500
@@ -308,8 +308,6 @@ Wire Wire Line
 	6000 3850 7100 3850
 Wire Wire Line
 	6000 4050 7100 4050
-Wire Wire Line
-	7700 4250 7650 4450
 Wire Wire Line
 	6450 3450 6450 3400
 Wire Wire Line
